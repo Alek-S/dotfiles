@@ -87,3 +87,8 @@ source $ZSH/oh-my-zsh.sh
 alias ls='ls -aFG'
 alias sudo='sudo -s'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+
+bindkey "[D" backward-word
+bindkey "[C" forward-word
+bindkey "^[a" beginning-of-line #ctrl+a
+bindkey "^[e" end-of-line #ctrl_e
