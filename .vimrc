@@ -1,5 +1,9 @@
 syntax on
+
+"Put monokai.vim file in your ~/.vim/colors/
+"Theme at: https://github.com/sickill/vim-monokai
 colorscheme monokai
+
 set number
 set incsearch
 set hlsearch
