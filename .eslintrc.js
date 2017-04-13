@@ -5,7 +5,7 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "sourceType": "module"
+        "sourceType": "script"
     },
     "rules": {
         "indent": [
@@ -24,6 +24,10 @@ module.exports = {
             "error",
             "always"
         ],
-        "no-console": 0
+        "no-console": 0,
+        "strict": [
+            "error", 
+            "global"
+        ]
     }
 };
