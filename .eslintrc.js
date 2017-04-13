@@ -28,6 +28,7 @@ module.exports = {
         "strict": [
             "error", 
             "global"
-        ]
+        ],
+        "no-var": "warn"
     }
 };
