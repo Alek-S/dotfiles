@@ -7,6 +7,7 @@ colorscheme monokai
 set number
 set incsearch
 set hlsearch
+set completeopt=longest,menuone
 
 "powerline for vim 
 "To Install: pip install --user powerline-status
