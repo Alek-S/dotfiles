@@ -1,0 +1,12 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.renderIndentGuides": true,
+    "editor.minimap.enabled": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background": "#343e4f"
+    },
+    "terminal.external.osxExec": "iTerm.app"
+}
