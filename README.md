@@ -1,2 +1,2 @@
-# Terminal_Profiles
-Personal Configs/Themes for Terminal &amp; iTerm
+# dotfiles
+Personal Configs/Themes
