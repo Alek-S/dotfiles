@@ -88,6 +88,10 @@ alias ls='ls -aFG'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
 
+#include z
+. /usr/local/etc/profile.d/z.sh
+
+
 bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line #ctrl+a
