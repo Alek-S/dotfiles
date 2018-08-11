@@ -30,6 +30,21 @@ module.exports = {
             "error", 
             "global"
         ],
-        "no-var": "warn"
+        "no-var": "warn",
+        "prefer-const": "warn",
+		"no-dupe-keys": "error",
+		"no-func-assign": "error",
+		"no-unreachable": "error",
+		"default-case": "error",
+		"no-else-return": "warn",
+		"block-spacing": "error",
+		"key-spacing": ["error", { "mode": "strict" }],
+		"no-trailing-spaces": "warn",
+		"no-useless-constructor": "error",
+		"prefer-template": "error",
+		"no-shadow": "error",
+		"no-unneeded-ternary": "error",
+		"multiline-ternary": ["warn", "always-multiline"],
+		"no-console": 0
     }
 };
