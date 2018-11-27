@@ -96,3 +96,14 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line #ctrl+a
 bindkey "^[e" end-of-line #ctrl_e
+
+# NVM Related
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# https://github.com/zsh-users/zsh-autosuggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
