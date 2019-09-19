@@ -86,6 +86,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls -aFG'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias c='clear'
+alias s='npm start'
+alias t='npm test'
+alias ct='clear && npm test'
+alias cs='clear && npm start'
 
 
 #include z
