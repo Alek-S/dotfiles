@@ -97,7 +97,8 @@ alias webstorm='open -na "WebStorm.app" --args "$@"'
 
 
 #include z
-. /usr/local/etc/profile.d/z.sh
+# . /usr/local/etc/profile.d/z.sh
+. /opt/homebrew/Cellar/z/1.12/etc/profile.d/z.sh
 
 
 bindkey "[D" backward-word
